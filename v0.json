@@ -1,0 +1,10 @@
+{
+  "$schema": "https://v0.dev/schemas/v0.schema.json",
+  "projects": {
+    ".": {
+      "installCommand": "cd apps/marketing && node ../../node_modules/.pnpm/astro@7.0.3_@astrojs+markdown-remark@7.2.0_@emnapi+core@1.11.1_@emnapi+runtime@1.11.1_@_e09d8ccf27d44f59e4647671c915a5f1/node_modules/astro/bin/astro.mjs build",
+      "devCommand": "cd apps/marketing && node ../../node_modules/.pnpm/astro@7.0.3_@astrojs+markdown-remark@7.2.0_@emnapi+core@1.11.1_@emnapi+runtime@1.11.1_@_e09d8ccf27d44f59e4647671c915a5f1/node_modules/astro/bin/astro.mjs preview --host --port 4321",
+      "port": 4321
+    }
+  }
+}
